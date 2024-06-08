@@ -24,7 +24,7 @@ function Card({ id, name, info, image, price , onRemoveTourHandler}) {
             <div className="text-2xl font-bold">
                 {name}
             </div>
-            <div className="text-justify h-[40%]">
+            <div className="text-justify ">
                 {readmore ? info : description}
                 <span className="text-blue-400 cursor-pointer" onClick={onReadHandler}>
                     {readmore ? 'Show less' : 'Read More'}
